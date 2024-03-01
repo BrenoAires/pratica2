@@ -11,6 +11,11 @@ function listar(contato){
         );
 }
 
+function Adicionar(){
+   const novo= new contato(nome,email, telefone);
+    contato.push(novo);
+}
+
 function buscar(nome){
     const buscou = contato.find(contato=> contato.nome === nome);
     if(buscou){
@@ -46,4 +51,4 @@ function remover(contato){
     }
 }
 
-module.exports = {listar, buscar, atualizar, remover};
+module.exports = {listar,Adicionar, buscar, atualizar, remover};
