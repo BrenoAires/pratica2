@@ -4,8 +4,8 @@ const controlador= require('./controlador');
 
 function menu(){
     console.log('1. Listar');
-    console.log(' 2. Adicionar');
-    console.log('3.Buscar');
+    console.log('2. Adicionar');
+    console.log('3. Buscar');
     console.log('4. Atualizar');
     console.log('5. remover');
     console.log('6. sair');
